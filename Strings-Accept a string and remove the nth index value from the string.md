@@ -16,22 +16,15 @@ To write a Python program that accepts a string and removes the character at a s
 
 ## 💻 Program
 ```
-def palindrome(a):
-    x1=a[::-1]
-    if a==x1:
-       print("The entered string is palindrome")
-    else:
-        print("The entered string is not palindrome")
-    
-    
-        
-        
-string =input()
-palindrome(string)
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
 ```
 ## Output
 
-<img width="777" height="127" alt="image" src="https://github.com/user-attachments/assets/98745aa6-51ec-4e1d-8a02-f78bc7b656f2" />
+<img width="802" height="244" alt="Screenshot 2026-04-21 132401" src="https://github.com/user-attachments/assets/83cf4ad4-65ba-40cc-8643-780559135312" />
 
 ## Result
 Thus the program executed successfully.
