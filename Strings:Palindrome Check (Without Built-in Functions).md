@@ -13,15 +13,23 @@ To write a Python program to check whether the string `"google"` is a **palindro
 
 ## 🧾 Program
 ```
-n=int(input())
-def remove(a):
-    for i in range(0,len(a)):
-        if(i!=n):
-            print(a[i],end='')
+def palindrome(a):
+    x1=a[::-1]
+    if a==x1:
+       print("The entered string is palindrome")
+    else:
+        print("The entered string is not palindrome")
+    
+    
+        
+        
+string =input()
+palindrome(string)
 ```
 ## Output
 
-<img width="652" height="193" alt="image" src="https://github.com/user-attachments/assets/a9f28b62-1aa0-4d4d-8451-96a86dd0d84a" />
+<img width="968" height="157" alt="Screenshot 2026-04-21 132553" src="https://github.com/user-attachments/assets/9a6fe8a9-c8be-459b-91d4-bca804227f1d" />
+
 
 ## Result
 Thus the program executed successfully.
